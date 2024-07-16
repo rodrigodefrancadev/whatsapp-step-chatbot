@@ -9,7 +9,7 @@ export class VenomBotRoot {
   public startVenombot() {
     venom
       .create({
-        session: 'Chatbot', //name of session
+        session: 'Chatbot',
       })
       .then((client) => this.onClientInit(client))
       .catch((erro) => {

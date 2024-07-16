@@ -24,6 +24,7 @@
   },
   "scripts": {
     "start": "tsx src/main.ts",
+    "start:teste": "tsx src/teste.ts",
     "start:build": "node build/src/main.js",
     "start:dev": "tsx src/main.ts",
     "clean": "rimraf coverage build tmp",
